@@ -71,3 +71,42 @@ img {
 .clear {
   clear: both;
 }
+
+
+/************* MEDIA QUERY *************/
+
+@media screen and (max-width: 420px) {
+  
+  body{
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  .container{
+    
+    overflow: hidden;
+  }
+
+  div#lezioni.container .row, div#why.container .row{
+    background-color: #f2f2cd;
+  }
+
+  .row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container.grey{
+    background-color: white;
+  }
+
+  /* img {
+    max-width: 100%;
+    height: auto;
+  } */
+  
+  
+}
