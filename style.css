@@ -78,11 +78,11 @@ img {
 @media screen and (max-width: 420px) {
   
 
-  .container{
+  /* .container{
     display: flex;
     flex-flow: column wrap;
     overflow: hidden;
-  }
+  } */
 
   div#lezioni.container .row, div#why.container .row{
     background-color: #f2f2cd;
